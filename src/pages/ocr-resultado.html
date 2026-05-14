@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+  <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado OCR - Jovi Camera</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>   
+  <body>
+    <div class="celular">
+      <header class="top-bar">
+        <a href="modo-estudo.html" class="botao-voltar" aria-label="Voltar">&larr;</a>
+        <h1>Resultado OCR</h1>
+        <button type="button" class="link">Editar</button>
+      </header>
+
+      <main class="conteudo">
+        <div class="banner-sucesso">&#10003; OCR concluído — 98% de precisão · 183 palavras extraídas</div>
+
+        <article class="card-ocr">
+  <pre id="texto-ocr">Comp. Thinking with Python - Aula 05
+
+  Estrutura de Repetição: while
+  
+  O comando while repete um bloco de código enquanto a condição for True.
+  A cada iteração, a condição é reavaliada.
+
+  Exemplo:  
+
+  contador = 0
+  while contador &lt; 5:
+      print(contador)
+      contador += 1
+
+  Saída: 0, 1, 2, 3, 4</pre>
+        </article>
+
+        <span class="chip-detectado">Comp. Thinking with Python (detectado)</span>
+  
+        <div class="botoes-acao">
+          <button type="button" class="botao-secundario" id="btn-copiar">Copiar texto</button>
+          <button type="button" class="botao-secundario">Salvar PDF</button>
+        </div> 
+
+        <a href="organizar.html" class="botao-primario botao-largo">Organizar por matéria</a>
+      </main>
+    </div>
+
+    <script src="../js/script.js"></script>
+  </body>
+  </html>
