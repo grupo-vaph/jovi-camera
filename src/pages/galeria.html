@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+  <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - Jovi Camera</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <div class="celular">
+      <header class="top-bar">
+        <a href="organizar.html" class="botao-voltar" aria-label="Voltar">&larr;</a>
+        <h1>Galeria Acadêmica</h1>
+        <span></span>
+      </header>
+
+      <main class="conteudo">
+        <nav class="filtros">
+          <span class="chip chip-ativo">Todos</span>
+          <span class="chip">Python</span>
+          <span class="chip">Front-End</span>
+          <span class="chip">Software</span>
+          <span class="chip">Storytelling</span>
+          <span class="chip">Web Dev</span>
+        </nav> 
+
+        <h2 class="subtitulo-secao">Hoje, 15 de Abril · 4 documentos</h2>
+        <section class="grid-fotos">
+          <div class="foto" style="background-color:#3040C4;">Python</div>
+          <div class="foto" style="background-color:#6C7BF0;">Front-End</div>
+          <div class="foto" style="background-color:#10B981;">Software</div>
+          <div class="foto" style="background-color:#F59E0B;">Web Dev</div>
+        </section>
+
+        <h2 class="subtitulo-secao">12 de Abril · 2 documentos</h2>
+        <section class="grid-fotos">
+          <div class="foto" style="background-color:#EF4444;">Storytelling</div>
+          <div class="foto" style="background-color:#8B8BA3;">Python</div>
+        </section>
+      </main>
+
+      <nav class="bottom-nav">
+        <a href="camera.html">Câmera</a>
+        <a href="galeria.html" class="ativo">Galeria</a>
+        <a href="organizar.html">Matérias</a>
+      </nav>
+    </div>
+
+    <div id="lightbox" class="lightbox" style="display:none;">
+      <button type="button" class="lightbox-fechar" id="btn-fechar-lightbox" aria-label="Fechar">&times;</button>
+      <button type="button" class="lightbox-seta lightbox-seta-anterior" id="btn-anterior" 
+  aria-label="Anterior">&lsaquo;</button>
+      <div class="lightbox-imagem" id="lightbox-imagem"></div>
+      <button type="button" class="lightbox-seta lightbox-seta-proxima" id="btn-proximo" 
+  aria-label="Proxima">&rsaquo;</button>
+      <span class="lightbox-indicador" id="lightbox-indicador"></span>
+    </div>
+  
+    <script src="../js/script.js"></script>
+  </body>
+  </html>
