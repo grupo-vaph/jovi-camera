@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# IDE / Editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Logs e temporários
+*.log
+*.tmp
+*.bak
+~$*
+
+# Sistema operacional
+.Spotlight-V100
+.Trashes
+ehthumbs.db
